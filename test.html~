@@ -1,0 +1,8 @@
+<html>
+<head>  
+
+</head>  
+<body>  
+    <applet code = "main.Molasses.class" width = "700px" height = "500px"></applet>  
+</body>  
+</html>
