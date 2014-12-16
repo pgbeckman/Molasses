@@ -36,7 +36,7 @@ public class Molasses {
             // determines if person is destined to drown
             boolean drowned = false;
             if( m / (Math.PI*Math.pow(r,2)) >= d ){
-                JOptionPane.showMessageDialog(null,"You would drown without exerting a force of " + Math.abs(Math.round((Math.abs(m*g) + d*Math.PI*Math.pow(r,2)*h*g)*100.0*.2248))/100.0 + " lbs");
+                JOptionPane.showMessageDialog(null,"You would drown if you didn't exert a force!");
                 drowned = true;
             }
 
